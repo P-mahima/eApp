@@ -1,0 +1,191 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    box-shadow: 2px 2px 2px 2px;
+
+    /* background-color: rgb(255, 255, 255); */
+    /* background-image: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(255,255,255,1) 55%); */
+    /* background: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(255,255,255,1) 55%); */
+
+    /* background-color: grey; */
+    /* margin-top: 30px; */
+    /* box-shadow: none; */
+}
+
+img {
+    box-shadow: none;
+    border: none;
+}
+
+.facebook {
+    width: 50px;
+    height: 60px;
+}
+.footerReact{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.Footer-first-div {
+    /* width: 30%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.footer-react-image1 {
+    width: 100px;
+    height: 100px;
+    box-shadow: none;
+    border-radius: 50%;
+    /* align-items: flex-start; */
+}
+.head-footer{
+    text-align: center;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+}
+
+.react-info {
+    width: 300px;
+    /* height: 100px; */
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-react-image2 {
+    width: 180px;
+    height: 100px;
+    box-shadow: none;
+    border: none;
+    /* align-items: flex-start; */
+}
+
+h1 {
+    padding: 20px;
+    /* color: white; */
+}
+
+h4 {
+    color: white;
+}
+
+h3 {
+    /* color: white; */
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.servicee{
+    color: white;
+    padding-bottom: 20px;
+    font-size: 27px;
+}
+
+.book {
+    width: 210px;
+    height: 70px;
+    color: antiquewhite;
+    background-color: blue;
+    font-size: larger;
+    border: 2px solid blue;
+    border-radius: 20px;
+
+}
+
+.footer-phone {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.footer-react-image3 {
+    box-shadow: none;
+    border: none;
+}
+
+.Demo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.service {
+    background: none;
+    color: black;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.navigate {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-facebook {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (min-width:300px) and (max-width:760px) {
+    .Footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* width: 90%; */
+
+    }
+
+    .Demo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: left;
+        /* text-align: left; */
+
+    }
+
+    .Footer-first-div {
+        /* width: 30%; */
+        /* display: flex;/ */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* gap: 20px; */
+        padding-top: 20px;
+    }
+}
+
+@media screen and (min-width:760px) and (max-width:1100px) {
+    .react-info {
+        width: 80px;
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .footer-react-image1 {
+        width: 60%;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+    .head-footer{
+        display: none;
+    }
+}
